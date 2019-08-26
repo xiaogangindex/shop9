@@ -1,0 +1,38 @@
+<navbar info="{{info}}"></navbar>
+<view class='search2'>
+  <input type='text'placeholder="搜索🔍" />
+</view>
+
+<view class='cate_main'>
+  <view class='cate_left'>
+    <block wx:for="{{list}}" wx:key>
+      <view class='{{index==activeIndex?"active":""}}'
+      bindtap='changeIndex' data-index="{{index}}">
+        {{item.cate_name}}
+      </view>
+    </block>
+  </view>
+  <view class='cate_right'>
+    <scroll-view 
+    scroll-y="{{true}}" 
+    scroll-into-view="{{elId}}"
+    scroll-with-animation="{{true}}"
+    bindscroll="scroll"
+    style='height:1000rpx'>
+       <block wx:for="{{list}}">
+         <view class='cate_item' id="{{'a'+index}}">
+           <view class="cate_item_title">
+           --- {{item.cate_name}} ---
+           </view>
+           <view class="cate_item_content">
+              <view wx:for="{{item.child}}" bindtap="gotolist">
+                <image src='{{item.pic}}' mode='widthFix' />
+                <text class="cate_item_content_txt" >{{item.cate_name}}</text>
+              </view>
+           </view>
+         </view>
+       </block> 
+       <view style='height:1600rpx'></view>
+    </scroll-view>
+  </view>
+</view>

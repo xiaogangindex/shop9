@@ -1,0 +1,54 @@
+<view class='promotionGood'>
+		<navigator class='item' >
+			<view class='pictrue'><image src='/images/5c3dbc27c69c7.jpg'></image></view>
+			<view class='text'>
+					<view class='name line1'>智米加湿器 白色</view>
+					<view class='sp-money acea-row'>
+						<view class='moneyCon'>促销价: ￥10.0</view>
+					</view>
+					<view class='bottom'>
+						<view class='money'>日常价：￥15.9</view>
+						<view>仅剩：99件</view>
+					</view>
+			</view>
+		</navigator>
+		<navigator class='item' >
+			<view class='pictrue'><image src='/images/5c3dbc27c69c7.jpg'></image></view>
+			<view class='text'>
+					<view class='name line1'>智米加湿器 白色</view>
+					<view class='sp-money acea-row'>
+						<view class='moneyCon'>促销价: ￥10.0</view>
+					</view>
+					<view class='bottom'>
+						<view class='money'>日常价：￥15.9</view>
+						<view>仅剩：99件</view>
+					</view>
+			</view>
+		</navigator>
+		<navigator class='item' >
+			<view class='pictrue'><image src='/images/5c3dbc27c69c7.jpg'></image></view>
+			<view class='text'>
+					<view class='name line1'>智米加湿器 白色</view>
+					<view class='sp-money acea-row'>
+						<view class='moneyCon'>促销价: ￥10.0</view>
+					</view>
+					<view class='bottom'>
+						<view class='money'>日常价：￥15.9</view>
+						<view>仅剩：99件</view>
+					</view>
+			</view>
+		</navigator>
+		<navigator class='item' >
+			<view class='pictrue'><image src='/images/5c3dbc27c69c7.jpg'></image></view>
+			<view class='text'>
+					<view class='name line1'>智米加湿器 白色</view>
+					<view class='sp-money acea-row'>
+						<view class='moneyCon'>促销价: ￥10.0</view>
+					</view>
+					<view class='bottom'>
+						<view class='money'>日常价：￥15.9</view>
+						<view>仅剩：99件</view>
+					</view>
+			</view>
+		</navigator>
+</view>

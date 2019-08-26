@@ -1,0 +1,21 @@
+<view class="navbar-box" style="background:{{info.bg}}">
+
+	<view class='navbar' wx:if="{{info.type==0}}">
+	  <view class="navbar-logo">
+			<image src="/images/logo.png"></image>
+    </view>
+		<view class="navbar-seach">
+			<input type="text" placeholder="搜索🔍"/>
+    </view>
+	</view>
+
+	<view class='navbar' wx:if="{{info.type==1}}">
+    <view class='nav-back' >
+      <view wx:if="{{info.back==true}}" class='iconfont icon-xiangzuo' bindtap='goback'></view>
+    </view>
+    <view class='nav-title'>
+      {{info.title}}
+    </view>
+  </view>
+
+</view>

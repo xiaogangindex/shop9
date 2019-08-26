@@ -1,0 +1,86 @@
+<navbar info="{{info}}"></navbar>
+<view class='productList'>
+   <view class='search bg-color acea-row row-between-wrapper' style='top:{{navH}}rpx'>
+      <view class='input acea-row row-between-wrapper'><text class='iconfont icon-sousuo'></text>
+        <form bindsubmit="searchSubmit">
+          <input placeholder='搜索商品信息' placeholder-class='placeholder'  placeholder='搜索商品名称' placeholder-class='placeholder' bindconfirm="searchSubmit" confirm-type='search' name="search" value='{{where.keyword}}'></input>
+        </form>
+      </view>
+      <view class='iconfont {{is_switch==true?"icon-pailie":"icon-tupianpailie"}}' bindtap='Changswitch'></view>
+   </view>
+
+   <view class='nav' style='margin-top:86rpx'>
+     <view class='item'>默认</view>
+     <view class='item' bindtap='set_where' data-type='2'>
+      价格
+      <image wx:if="{{price==1}}" src='/images/up.png'></image>
+      <image wx:elif="{{price==2}}" src='/images/down.png'></image>
+      <image wx:else src='/images/horn.png'></image>
+     </view>
+     <view class='item' bindtap='set_where' data-type='3'>
+        销量
+        <image wx:if="{{stock==1}}" src='/images/up.png'></image>
+        <image wx:elif="{{stock==2}}" src='/images/down.png'></image>
+        <image wx:else src='/images/horn.png'></image>
+      </view>
+     <!-- down -->
+     <view class='item {{nows ? "font-color":""}}' bindtap='set_where' data-type='4'>新品</view>
+   </view>
+
+   <view class='list'>
+     <navigator class='item' url='/pages/good-detail/good-detail'>
+        <view class='pictrue'><image src='/images/5c3dc0ef27068.jpg' ></image></view>
+        <view class='text'>
+           <view class='name line1'>伊利酸奶畅轻</view>
+           <view class='vip'>
+              <view class='vip-money'>￥300.0<image src='/images/vip.png'></image></view>
+              <view>已售1342件</view>
+           </view>
+        </view>
+     </navigator>
+
+		  <navigator class='item' >
+        <view class='pictrue'><image src='/images/5c3dc0ef27068.jpg' ></image></view>
+        <view class='text'>
+           <view class='name line1'>伊利酸奶畅轻</view>
+           <view class='vip'>
+              <view class='vip-money'>￥300.0<image src='/images/vip.png'></image></view>
+              <view>已售1342件</view>
+           </view>
+        </view>
+     </navigator>
+
+		   <navigator class='item' >
+        <view class='pictrue'><image src='/images/5c3dc0ef27068.jpg' ></image></view>
+        <view class='text'>
+           <view class='name line1'>伊利酸奶畅轻</view>
+           <view class='vip'>
+              <view class='vip-money'>￥300.0<image src='/images/vip.png'></image></view>
+              <view>已售1342件</view>
+           </view>
+        </view>
+     </navigator>
+		  <navigator class='item' >
+        <view class='pictrue'><image src='/images/5c3dc0ef27068.jpg' ></image></view>
+        <view class='text'>
+           <view class='name line1'>伊利酸奶畅轻</view>
+           <view class='vip'>
+              <view class='vip-money'>￥300.0<image src='/images/vip.png'></image></view>
+              <view>已售1342件</view>
+           </view>
+        </view>
+     </navigator>
+		  <navigator class='item' >
+        <view class='pictrue'><image src='/images/5c3dc0ef27068.jpg' ></image></view>
+        <view class='text'>
+           <view class='name line1'>伊利酸奶畅轻</view>
+           <view class='vip'>
+              <view class='vip-money'>￥300.0<image src='/images/vip.png'></image></view>
+              <view>已售1342件</view>
+           </view>
+        </view>
+     </navigator>
+   </view>
+
+  </view>
+    

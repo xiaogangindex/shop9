@@ -1,0 +1,54 @@
+       <view class='goodList'>
+            <navigator class='item'>
+              <view class='pictrue'>
+                <image src='/images/5cf737bf264e4.jpg'></image>
+              </view>
+              <view class='underline'>
+                  <view class='text'>
+                      <view>测撒谎仪</view>
+                      <view class='money font-color'>￥<text class='num'>0.01</text></view>
+                      <view class='vip-money'><text class='num'>已售347件</text></view>
+                  </view>
+									<view class='iconfont'><image mode="widthFit" src="/images/collection.png"></image></view>
+              </view>
+            </navigator>
+						<navigator class='item'>
+              <view class='pictrue'>
+                <image src='/images/5cf737bf264e4.jpg'></image>
+              </view>
+              <view class='underline'>
+                  <view class='text'>
+                      <view>测撒谎仪</view>
+                      <view class='money font-color'>￥<text class='num'>0.01</text></view>
+                      <view class='vip-money'><text class='num'>已售347件</text></view>
+                  </view>
+									<view class='iconfont'><image mode="widthFit" src="/images/collection.png"></image></view>
+              </view>
+            </navigator>
+						<navigator class='item'>
+              <view class='pictrue'>
+                <image src='/images/5cf737bf264e4.jpg'></image>
+              </view>
+              <view class='underline'>
+                  <view class='text'>
+                      <view>测撒谎仪</view>
+                      <view class='money font-color'>￥<text class='num'>0.01</text></view>
+                      <view class='vip-money'><text class='num'>已售347件</text></view>
+                  </view>
+									<view class='iconfont'><image mode="widthFit" src="/images/collection.png"></image></view>
+              </view>
+            </navigator>
+						<navigator class='item'>
+              <view class='pictrue'>
+                <image src='/images/5cf737bf264e4.jpg'></image>
+              </view>
+              <view class='underline'>
+                  <view class='text'>
+                      <view>测撒谎仪</view>
+                      <view class='money font-color'>￥<text class='num'>0.01</text></view>
+                      <view class='vip-money'><text class='num'>已售347件</text></view>
+                  </view>
+									<view class='iconfont'><image mode="widthFit" src="/images/collection.png"></image></view>
+              </view>
+            </navigator>
+       </view>

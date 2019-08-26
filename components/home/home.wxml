@@ -1,0 +1,12 @@
+<view class='home'>
+      <view class='homeCon {{flag==true?"on":""}}'>
+		   <view class="icon">
+			 <navigator url='/pages/index/index' open-type='switchTab' class='iconfont icon-shouye-xianxing'></navigator>
+       <navigator url='/pages/shopcar/shopcar' open-type='switchTab' class='iconfont icon-caigou-xianxing'></navigator>
+       <navigator url='/pages/user/user' open-type='switchTab' class='iconfont icon-yonghu1'></navigator>
+			 </view>
+      </view>
+   <view class='pictrue' bindtap='open'>
+	 <image src='{{flag==false?"/images/close.gif":"/images/open.gif"}}'></image>
+	 </view>
+</view>

@@ -1,0 +1,220 @@
+<view class="index">
+<!--  -->
+<navbar info="{{info}}"></navbar>
+<!--  -->
+<view class="head">
+  <swiper autoplay="{{true}}" circular="{{true}}" interval="3000">
+		<swiper-item wx:for="{{banner}}" wx:key>
+		   <image style="width:100%" src="{{item}}"></image>
+		</swiper-item>
+	</swiper>
+</view>
+<!--  -->
+<view class="list">
+	<view>
+		<image src="/images/nav-1.png"></image>
+		<text>商品分类</text>
+	</view>
+	<view>
+		<image src="/images/nav-2.png"></image>
+		<text>领优惠券</text>
+	</view>
+	<view>
+		<image src="/images/nav-3.png"></image>
+		<text>行业资讯</text>
+	</view>
+	<view>
+		<image src="/images/nav-4.png"></image>
+		<text>我要签到</text>
+	</view>
+	<view>
+		<image src="/images/nav-5.png"></image>
+		<text>我的收藏</text>
+	</view>
+	<view>
+		<image src="/images/nav-6.png"></image>
+		<text>拼团互动</text>
+	</view>
+	<view>
+		<image src="/images/nav-7.png"></image>
+		<text>秒杀活动</text>
+	</view>
+	<view>
+		<image src="/images/nav-8.png"></image>
+		<text>砍价活动</text>
+	</view>
+</view>
+<!--  -->
+ <view class='news acea-row row-between-wrapper'>
+		<view class='pictrue'><image src='/images/news.png'></image></view>
+		<view class='swiperTxt'>
+				<swiper autoplay="{{true}}" circular="{{true}}" interval="2000" vertical="{{true}}">
+								<swiper-item>
+										<navigator>
+												<view class='text'>
+														<view class='label' >最新</view>
+														<view class='newsTitle'>最新电商V.2.60即将上线</view>
+												</view>
+										</navigator>
+								</swiper-item>
+								<swiper-item>
+										<navigator>
+												<view class='text'>
+														<view class='newsTitle'>最新电商V.2.60即将上线</view>
+												</view>
+										</navigator>
+								</swiper-item>
+								<swiper-item>
+										<navigator>
+												<view class='text'>
+														<view class='label' >火爆</view>
+														<view class='newsTitle'>火爆新闻 最新电商上线啦。。</view>
+												</view>
+										</navigator>
+								</swiper-item>
+					</swiper> 
+		</view>
+</view>
+<!--  -->
+ <view class='specialArea'>
+		<navigator class="left">
+			<image mode="widthFix" src='/images/5c9ccf7e9f4d0.jpg'></image>
+			<view class="txt">
+				<text class="big">一起来拼团</text>
+				<text class="small">拼呀拼多多</text>
+			</view>
+		</navigator>
+		<view class='right'>
+				<navigator>
+					<image mode="widthFix" src='/images/5c9ccf7e97660.jpg'></image>
+					<view class="txt">
+						<text class="big">秒杀专区</text>
+						<text class="small">新能源汽车火爆销售</text>
+					</view>
+				</navigator>
+				<navigator>
+					<image mode="widthFix" src='/images/5c9ccfc86a6c1.jpg'></image>
+					<view class="txt">
+						<text class="big">砍价专区</text>
+						<text class="small">喊朋友来砍价。。</text>
+					</view>
+				</navigator>
+		</view>
+</view>
+<!--  -->
+<view class='wrapper'>
+			<view class='title'>
+				<view class='text'>
+						<view class='name'>精品推荐</view>
+						<view>false</view>
+				</view>
+				<navigator class='more'>更多></navigator>
+			</view>
+			<view class='boutique'>
+					<swiper  autoplay="true"  indicator-dots="true"
+								circular="{{circular}}" indicator-color="rgba(252,65,65,0.3)" indicator-active-color="#fc4141">
+								<swiper-item>
+									<navigator style='width:100%;height:100%;'>
+										<image src="/images/5c9e015bdc6f5.jpg" class="slide-image" data-idx='{{index}}'/>
+									</navigator>
+								</swiper-item>
+								<swiper-item>
+									<navigator style='width:100%;height:100%;'>
+										<image src="/images/5cb18e247a1a9.jpg" class="slide-image" data-idx='{{index}}'/>
+									</navigator>
+								</swiper-item>
+					</swiper>
+			</view>
+	<goodlist></goodlist>
+</view>
+<!--  -->
+<view class='hotList' style="background:url('/images/coupon-window2.png') no-repeat;background-size:100% 50%;">
+		<view class='hot-bg'>
+			<view class='title'>
+				<view class='text'><text class='label'>热门榜单</text>根据销量、搜索、好评等综合得出</view>
+				<navigator class='more'>更多></navigator>
+			</view>
+		</view>
+		<view class='list'>
+				<navigator class='item'>
+					<view class='pictrue'>
+						<image src='/images/banner.jpg'></image>
+						<image src='/images/one.png' class='numPic'></image>
+					</view>
+					<view class='name'>无线吸尘器</view>
+					<view class='money font-color'>￥100.0</view>
+				</navigator>
+					<navigator class='item'>
+					<view class='pictrue'>
+						<image src='/images/banner.jpg'></image>
+						<image src='/images/one.png' class='numPic'></image>
+					</view>
+					<view class='name'>无线吸尘器</view>
+					<view class='money font-color'>￥100.0</view>
+				</navigator>
+					<navigator class='item'>
+					<view class='pictrue'>
+						<image src='/images/banner.jpg'></image>
+						<image src='/images/one.png' class='numPic'></image>
+					</view>
+					<view class='name'>无线吸尘器</view>
+					<view class='money font-color'>￥100.0</view>
+				</navigator>
+		</view>
+</view>
+<!--  -->
+<view class='wrapper' >
+       <view class='title'>
+          <view class='text'>
+             <view class='name'>首发新品<text class='new'>NEW~</text></view>
+             <view class=''>false</view>
+          </view>
+          <navigator class='more' >更多></navigator>
+       </view>
+       <view class='newProducts'>
+          <scroll-view class=".scroll-product" scroll-x>
+                 <navigator class='item'>
+                    <view class='img-box'>
+                      <image src='/images/5c9de8b7c5cc5.png'></image>
+                    </view>
+                    <view class='pro-info'>测谎仪</view>
+                    <view class='money font-color'>￥3.11</view>
+                  </navigator>
+									<navigator class='item'>
+                    <view class='img-box'>
+                      <image src='/images/5c3dba1366885.jpg'></image>
+                    </view>
+                    <view class='pro-info'>测谎仪</view>
+                    <view class='money font-color'>￥3.11</view>
+                  </navigator>
+									<navigator class='item'>
+                    <view class='img-box'>
+                      <image src='/images/5c3dbc27c69c7.jpg'></image>
+                    </view>
+                    <view class='pro-info'>测谎仪</view>
+                    <view class='money font-color'>￥3.11</view>
+                  </navigator>
+									<navigator class='item'>
+                    <view class='img-box'>
+                      <image src='/images/5c3dc0ef27068.jpg'></image>
+                    </view>
+                    <view class='pro-info'>测谎仪</view>
+                    <view class='money font-color'>￥3.11</view>
+                  </navigator>
+           </scroll-view>
+  		</view>
+</view>
+<!--  -->
+ <view class='wrapper'>
+       <view class='title'>
+          <view class='text'>
+             <view class='name'>促销单品</view>
+             <view class='line1'>false</view>
+          </view>
+          <navigator class='more' >更多></navigator>
+       </view>
+       <promotionGood></promotionGood>
+  </view>
+</view>
+
+<home></home>

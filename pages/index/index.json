@@ -1,0 +1,8 @@
+{
+  "usingComponents":{
+		"navbar":"/components/navbar/navbar",
+		"goodlist": "/components/goodlist/goodlist",
+		"promotionGood":"/components/promotionGood/promotionGood",
+		"home":"/components/home/home"
+	}
+}
